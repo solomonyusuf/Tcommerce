@@ -1,4 +1,4 @@
-# Tcommerce Backend
+# Tcommerce 
 
 This is the backend API for the Tcommerce application, built with ASP.NET Core following a clean architecture approach.
 
@@ -36,3 +36,23 @@ Response:
 {
   "token": "your-jwt-token"
 }
+```
+
+## Frontend
+
+The frontend (React + Bootstrap) is located in:
+
+/frontend/tcommerceclient
+
+It consumes this API using JWT authentication.
+
+# Notes
+Token endpoint is for development/testing
+In production, replace with proper login system
+Ensure CORS is enabled for frontend access
+
+# Architecture
+
+See:
+
+Microservice Architecture.png
